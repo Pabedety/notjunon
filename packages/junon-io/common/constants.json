@@ -3586,6 +3586,25 @@
       },
       "description": "Burst Weapon that shoots fast projectiles"
     },
+    "BoltActionRifle": {
+      "parent": "Equipments.BaseEquipment",
+      "isWeapon": true,
+      "isFireArm": true,
+      "cost": {
+        "gold": 500
+      },
+      "stats": {
+        "range": 1200,
+        "damage": 30,
+        "health": 300,
+        "reload": 2500
+      },
+      "requirements": {
+        "IronBar": 40,
+        "CopperBar": 10
+      },
+      "description": "Single shot weapon that shoots powerful projectiles"
+    },
     "Scar17": {
       "parent": "Equipments.BaseEquipment",
       "isWeapon": true,
