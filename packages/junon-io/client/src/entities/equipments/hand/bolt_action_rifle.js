@@ -1,6 +1,6 @@
 const RangeEquipment = require("./range_equipment")
-const Constants = require("./../../../../../common/constants.json")
-const Protocol = require("./../../../../../common/util/protocol")
+const Constants = require("../../../../../common/constants.json")
+const Protocol = require("../../../../../common/util/protocol")
 
 class BoltActionRifle extends RangeEquipment {
 

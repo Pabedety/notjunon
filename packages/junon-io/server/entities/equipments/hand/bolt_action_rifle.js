@@ -1,8 +1,8 @@
 const HandEquipment = require("./hand_equipment")
-const Projectiles = require("./../../projectiles/index")
+const Projectiles = require("../../projectiles/index")
 
 const Protocol = require('../../../../common/util/protocol')
-const Constants = require("./../../../../common/constants.json")
+const Constants = require("../../../../common/constants.json")
 
 
 class BoltActionRifle extends HandEquipment {
