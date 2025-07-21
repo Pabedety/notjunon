@@ -39,7 +39,7 @@ Equipments.PocketTrader = require("./hand/pocket_trader")
 Equipments.Bowl = require("./hand/bowl")
 Equipments.Deconstructor = require('./hand/deconstructor')
 Equipments.Dynamite = require('./hand/dynamite')
-Equipments.BoltAction = require("./hand/bolt_action")
+Equipments.BoltActionRifle = require("./hand/bolt_action_rifle")
 
 Equipments.SpaceSuit = require("./armor/space_suit")
 Equipments.CombatArmor = require("./armor/combat_armor")

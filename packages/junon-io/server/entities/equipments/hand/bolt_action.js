@@ -5,7 +5,7 @@ const Protocol = require('../../../../common/util/protocol')
 const Constants = require("./../../../../common/constants.json")
 
 
-class BoltAction extends HandEquipment {
+class BoltActionRifle extends HandEquipment {
 
   onEquipmentConstructed() {
     this.MAX_BURST_COUNT = 1
@@ -55,7 +55,7 @@ class BoltAction extends HandEquipment {
   }
 
   getConstantsTable() {
-    return "Equipments.BoltAction"
+    return "Equipments.BoltActionRifle"
   }
 
   getAmmoType() {
@@ -63,7 +63,7 @@ class BoltAction extends HandEquipment {
   }
 
   getType() {
-    return Protocol.definition().BuildingType.BoltAction
+    return Protocol.definition().BuildingType.BoltActionRifle
   }
 
   executeTurn() {
@@ -115,4 +115,4 @@ class BoltAction extends HandEquipment {
   }
 }
 
-module.exports = BoltAction
+module.exports = BoltActionRifle
