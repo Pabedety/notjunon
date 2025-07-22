@@ -147,7 +147,18 @@ class EventHandler {
       const num = this._safeNumber(val)
       return num === 0 ? NaN : result / num
     }, initial)
+    
   }
+    floordiv(...values) {
+    if (values.length === 0) return 0
+    const initial = this._safeNumber(values[0])
+    
+    return values.slice(1).reduce((result, val) => {
+      const num = this._safeNumber(val)
+      return num === 0 ? NaN : Math.floor(result / num)
+    }, initial)
+  }
+
 
   round(value, precision = 0) {
     const num = this._safeNumber(value)
@@ -1173,6 +1184,7 @@ class EventHandler {
       "$subtract": true,
       "$multiply": true,
       "$divide": true,
+      "$floordiv": true,
       "$round": true,
       "$modulo": true,
       "$pow": true,
